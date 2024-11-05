@@ -1,0 +1,13 @@
+
+# prepare environment:
+
+python3 -m venv venv
+source venv/bin/activate
+pip3 install flask waitress
+
+# run
+
+python3 server.py
+python3 server.py --debug
+
+
